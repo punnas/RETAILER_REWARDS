@@ -67,7 +67,7 @@ DB Tables:
 *  Go to Docker Terminal
 *  Go to application root directory
 *  build image using command: docker build -t customer-rewards-image
-*  run the container using command: docker run -p 80801:8080 customer-rewards-image
+*  run the container using command: docker run -p 8081:8080 customer-rewards-image
 
 
 

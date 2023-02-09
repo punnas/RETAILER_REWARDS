@@ -29,7 +29,7 @@ DB Tables:
 *    Create Transaction:-POST /customer/transaction  
 *    Get Rewards Info:- GET /customer/rewards
 *    Get Rewards by customer:- GET /customer/rewards
-
+Note: In order to see the Rewards data, Create Customers, Create transactions and call Getter API's to get Rewards in information.
 ## Application URL's
     
 * Swagger: http://localhost:8080/rewards/swagger-ui/index.html

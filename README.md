@@ -17,16 +17,16 @@ Given a record of every transaction during a three-month period, calculate the r
 
 
 ## Implementation
-Implemented using Spring Boot, SpringJpa, H2 DB, Embeded Tomcat, Java11.0.16
+Implemented using Spring Boot, SpringJpa, H2 DB, Embedded Tomcat, Java11.0.16
 
 DB Tables:
 *   CUSTOMER
 *   TRANSACTION
 *   REWARD
   
-## API's Emplemented
+## APIs Implemented
 *    Create Customer:-  POST /customer  
-*    Create Transaction:-POST /customer/transacion  
+*    Create Transaction:-POST /customer/transaction  
 *    Get Rewards Info:- GET /customer/rewards
 *    Get Rewards by customer:- GET /customer/rewards
 
@@ -42,15 +42,15 @@ DB Tables:
 
 ## Features
 
-- Implented Code Coverage using Jacoco
-- Congigured Health Check and Metrics
+- Implemented Code Coverage using Jacoco
+- Configured Health Check and Metrics
 - Implemented Dockerization
 - JUnit Test Cases
 
 
 ## Prerequisites for Running Locally
 
-*  Install IntelliJ IDE or Eclispse recommended
+*  Install IntelliJ IDE or Eclipse recommended
 *  Install Docker to run application in Docker (Optional)
 *  OpenJdk 11 or above supported by Jacoco
 *  maven
